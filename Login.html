@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost&family=Martian+Mono:wght@300&family=Playfair+Display:ital,wght@0,500;1,500&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+    <section>
+        <div class="container my-5 pt-5 text-center">
+            <div class="row">
+                <div class="col d-flex justify-content-center align-items-center">
+                    <div class="card mb-3">
+                        <div class="row">
+                            <div class="col-md-5 d-none d-md-block">
+                                <img src="https://images.unsplash.com/photo-1633684801944-e6f68e10e439?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                    class="rounded-start w-100" alt="">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title pt-1 header-font fw-bold">LOGIN</h5>
+                                    <p class="text-center text-size default-font"><a href="SignUp.html">Make new account?</a></p>
+                                    <div class="text-center">
+                                        <input type="text" name="username" class="contact-form default-font"
+                                            placeholder="USERNAME OR EMAIL">
+                                        <br>
+                                        <br>
+                                        <input type="password" name="username" class="contact-form default-font"
+                                            placeholder="PASSWORD">
+                                        <p>
+                                            <a href="#" class="text-size default-font">Forgot password?</a>
+                                        </p>
+                                        <a href="FutureRecidencyHome.html">
+                                            <button class="btn sign-link mt-2 text-size header-font" type="button">Login</button>
+                                        </a>
+                                    </div>
+                                    <a href="#">
+                                        <p class="text-center mt-3 text-size default-font" data-bs-toggle="offcanvas"
+                                            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Privacy
+                                            Policy
+                                        </p>
+                                    </a>
+                                    <a href="#">
+                                        <p class="text-center text-size default-font" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Terms and Conditions</p>
+                                    </a>
+                
+                                    <div class="offcanvas offcanvas-start default-font" data-bs-scroll="true" tabindex="-1"
+                                        id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                                        <div class="offcanvas-header">
+                                            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Privacy Policy</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="offcanvas-body pt-4">
+                                            <p class="text-size">We don't sell any of your information to anyone, and we never will. We
+                                                also impose strict restrictions on how our partners can use and disclose the data we
+                                                provide. Here are the types of third parties we share information with: Partners who use
+                                                our analytics services.</p>
+                                            <div class="text-center">
+                                                <a href="PrivacyPolicy.html">Read More</a>
+                                            </div>
+                                        </div>
+                                        <div class="offcanvas-header">
+                                            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Terms and Conditions</h5>
+                                        </div>
+                                        <div class="offcanvas-body">
+                                            <p class="text-size">We don't sell any of your information to anyone, and we never will. We
+                                                also impose strict restrictions on how our partners can use and disclose the data we
+                                                provide. Here are the types of third parties we share information with: Partners who use
+                                                our analytics services.</p>
+                                            <div class="text-center">
+                                                <a href="Terms&Conditions.html">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js">
+
+
+            </script>
+
+            <script>
+                const focus = document.getElementById("input-fill");
+                focus.blur();
+            </script>
+</body>
+
+</html>

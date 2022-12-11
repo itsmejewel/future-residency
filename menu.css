@@ -1,0 +1,253 @@
+body {
+    background-color: #FCE2DB;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    border-color: #80489C;
+    opacity: 0.8;
+}
+
+/* centering collapse (NOT DONE YET) */
+.navbar-nav .navbar-collapse {
+    text-align: center;
+    float: none;
+    vertical-align: top;
+}
+
+/* remove dropdown arrow */
+.navbar-collapse ::after {
+    content: none;
+}
+
+/* FOR CONTACT PAGE */
+.contact {
+    background: url("https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1916&q=80");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+}
+
+@media (max-width: 52em) {
+    .contact {
+        min-height: 15vh;
+    }
+    
+}
+
+/* FOR HOUSES DISPLAY */
+.home {
+    background: url("https://images.unsplash.com/photo-1635776062043-223faf322554?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+}
+
+
+@media (max-width: 52em) {
+    .home {
+        min-height: 15vh;
+    }
+}
+
+.apartment {
+    background: url("https://images.unsplash.com/photo-1635776062043-223faf322554?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+}
+
+
+@media (max-width: 52em) {
+    .apartment {
+        min-height: 15vh;
+    }
+}
+
+.carousel-inner {
+    z-index: 20;
+}
+.display-carousel {
+    min-height: 30vh;
+}
+
+@media (max-width: 52em) {
+    .display-carousel {
+        min-height: 15vh;
+    }
+}
+
+.btn {
+    border-radius: 1.3em;
+    height: 6vh;
+    width: auto;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    color: #EDCAFF;
+    background-color: #80489cdc;
+    transform: scale(1.1);
+
+}
+
+.btn:active {
+    color: #EDCAFF;
+    background-color: #80489c90;
+}
+
+
+.log-link {
+    /* border-color: #80489C; */
+    color: #EDCAFF;
+}
+
+
+.sign-link {
+    background-color: #80489C;
+    color: #EDCAFF;
+}
+
+.sub-form {
+    border-radius: 100px;
+    border-color: #80489C;
+    height: 2.5em;
+}
+
+footer {
+    background-color: #373139;
+}
+
+.section-background {
+    background-color: #f5c7ba;
+}
+
+.carousel-caption {
+    text-align: left;
+}
+
+.house-cap {
+    background-color: #373139;
+    opacity: 0.7;
+    color: white;
+    min-height: 30vh;
+    min-width: auto;
+}
+
+@media(min-width: 52em) {
+    .house-cap {
+        min-height: 15vh;
+        /* min-width: 32.5vw; */
+    }
+}
+
+.vintage-card {
+    height: 60vh;
+    width: 50vh;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.vintage-img {
+    border-radius: 10px;
+}
+
+.vintage-p {
+    font-size: 1.2vw;
+}
+
+
+/* LOGIN SIGN UP */
+.text-size {
+    font-size: small;
+}
+
+.contact-form {
+    border: none;
+    border-bottom: 1px solid #80489C;
+    background: transparent;
+    width: 15vw;
+    font-size: small;
+}
+
+.contact-form:focus {
+    outline: none;
+}
+
+.sign-logo {
+    height: 4vh;
+    width: auto;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+
+}
+
+input {
+    margin-top: 0.5em;
+}
+
+input::placeholder {
+    color: #80489C;
+    font-size: small;
+}
+
+a:link {
+    color: #ab24ef;
+}
+
+a:visited {
+    color: #ab24ef;
+}
+
+/* GOOGLE MAP EMBED */
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+
+}
+
+.footer-text {
+    color: #b092be;
+}
+
+/* HOUSES HOVER */
+.enlarge {
+    transition: all 0.2s ease-in-out;
+}
+
+
+.enlarge:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 20px rgba(117, 117, 117, 0.2);
+
+}
+
+.bg-color {
+    background-color: #f3c3efd6;
+}
+
+/* HOME CARDS */
+.card-size {
+    max-width: 16em;
+}
+
+@media(max-width: 17.5em) {
+    .card-size {
+        max-width: 15em;
+        /* min-width: 32.5vw; */
+    }
+}

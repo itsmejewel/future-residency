@@ -1,0 +1,273 @@
+body {
+    background-color: #FCE2DB;
+}
+
+.default-font {
+    font-family: 'Jost', sans-serif;
+}
+
+.first-quote {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.5px;
+}
+
+.header-font {
+    font-family: 'Martian Mono', monospace;
+}
+
+.nav-link {
+    color: #4f0e6f;
+}
+
+.nav-link:visited {
+    color: #4f0e6f;
+}
+
+.footer-link {
+    color: #b92eff;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    border-color: #80489C;
+    opacity: 0.8;
+}
+
+/* centering collapse (NOT DONE YET) */
+.navbar-nav .navbar-collapse {
+    text-align: center;
+    float: none;
+    vertical-align: top;
+}
+
+/* remove dropdown arrow */
+.navbar-collapse ::after {
+    content: none;
+}
+
+.hero {
+    background: url("https://images.unsplash.com/photo-1625671680827-fdc3014d516d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    /* https://images.unsplash.com/photo-1611420890968-c87853bfa973?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80 */
+    position: relative;
+    /* z-index: 0; */
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+}
+
+@media (max-width: 52em) {
+    .hero {
+        min-height: 15vh;
+    }
+}
+
+.hero-quote {
+
+
+
+}
+
+/* .btn {
+    border-radius: 1.3em;
+    height: 2em;
+    width: auto;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    color: #EDCAFF;
+    background-color: #80489cdc;
+    transform: scale(1.1);
+
+}
+
+.btn:active {
+    color: #EDCAFF;
+    background-color: #80489c90;
+} */
+
+.log-link {
+    border-color: #80489C;
+    color: #EDCAFF;
+    border: 1px;
+}
+
+
+.sign-link {
+    background-color: #80489C;
+    color: #EDCAFF;
+}
+
+
+.text-size {
+    font-size: small;
+}
+
+.featured-apartments {
+    font-size: 2em;
+}
+
+.card-name {
+    font-size: 1.2em;
+    color: #665071;
+    font-weight: bold;
+}
+.card-price {
+    font-size: 0.9em;
+    color: #665071;
+    font-weight: bold;
+}
+
+.card-digits {
+    font-size: 0.8em;
+}
+
+.measure-color {
+    color: #665071;
+}
+
+.card-address {
+    font-size: 0.8em;
+}
+
+.sub-form {
+    border-radius: 100px;
+    border-color: #80489C;
+    height: 2.5em;
+}
+
+.form-nature {
+    display: grid;
+    grid-auto-flow: column;
+    margin: 1em auto;
+}
+
+@media (min-width: 45em) {
+    .form-nature {
+        grid-auto-flow: row;
+    }
+}
+
+.sub-img {
+    filter: drop-shadow(0 0 0.75rem #b92eff);
+}
+footer {
+    background-color: #373139;
+}
+/* .foot {
+    background-color: #373139;
+} */
+
+
+/* GOOGLE MAP */
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    /* height: 400px;
+    width: 600px; */
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    /* height: 400px;
+    width: 600px; */
+    border-radius: 10px;
+}
+
+/* .sub-link {
+    background-color: #80489C;
+    color: #EDCAFF;
+    width: 40vw;
+} */
+/* .apartment-row {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1em;
+}
+
+@media (max-width: 48em) {
+    .apartment-row {
+        grid-auto-flow: row;
+    }
+    
+} */
+
+
+/* .border {
+    background-color: black;
+} */
+
+/* ABOUT US */
+.intro {
+    color: #5d1c7e;
+}
+
+.team-pic {
+    border-radius: 50%;
+    height: 10vh;
+    width: auto;
+}
+
+/* LINK STYLES */
+
+.featured-cards {
+    list-style: none;
+    text-decoration: none;
+    color: #5d1c7e;
+}
+
+.featured-cards:hover {
+    color: #5d1c7e;
+}
+
+
+/* ANIMATION */
+.card-ani{
+    transition: all 0.2s ease-in-out;
+}
+
+
+.card-ani:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 20px rgba(117, 117, 117, 0.2);
+
+}
+
+/* COUNTER ANIMATION */
+.counter {
+    width: 4vw;
+    height: 8vh;
+    border-radius: 100px;
+    transition: all 0.3s ease-in-out;
+}
+.counter:hover {
+    animation: loader 1.25s;
+    background: linear-gradient(130deg, #aa54d5ab 0%, #8932b4b8 100%);
+    box-shadow: none;
+    transform: scale(1.3);
+    /* box-shadow: 0px 4px 10px rgb(239, 140, 221); */
+    font-style: bold;
+
+}
+
+@keyframes loader {
+    0% {
+      rotate: 0deg;
+    }
+    100% {
+      border-radius: 50%;
+      /* rotate: 360deg; */
+    }
+  }
+
+  /* COUNTER BACKGROUND */
+.section-background {
+    background-color: #f5c7ba;
+}
+
+/* FOOTER */
+.footer-text {
+    color: #b092be;
+}
